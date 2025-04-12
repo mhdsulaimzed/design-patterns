@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="RAsS0MWrFuZNuajnFMC6" name="Page-1">
+        <mxGraphModel dx="987" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Context&lt;br&gt;GetContext()&lt;br&gt;SetState()&lt;br&gt;GetState()" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="190" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="State&lt;br&gt;action()" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="190" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Concrete Implementation&amp;nbsp; A&lt;br&gt;action()" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="410" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Concrete Implementation&amp;nbsp; B" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="410" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="330" width="20" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="280" width="20" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="230" width="250" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
